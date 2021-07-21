@@ -1,8 +1,8 @@
 
 
 from selenium import webdriver
-from ui_web.common import web_ui   # 导入ui_web.common文件夹下的web_ui文件
-from ui_web.test_data import web_data   # 导入测数据文件
+from common import web_ui   # 导入ui_web.common文件夹下的web_ui文件
+from test_data import web_data   # 导入测数据文件
 
 driver = webdriver.Chrome()
 driver.implicitly_wait(10)
